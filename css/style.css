@@ -1,0 +1,63 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #0d0d0d;
+    background-attachment: fixed;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+article {
+    text-align: center;
+    line-height: 1.6;
+}
+
+i {
+    color: grey;
+}
+
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(230, 185, 128, 0.7);
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #e6b980;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffcf91;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+li {
+    margin: 0.4rem 0;
+}
+
+hr {
+    border: none;          
+    height: 1px;            
+    background-color: grey; 
+    margin: 1rem 0;         
+}
